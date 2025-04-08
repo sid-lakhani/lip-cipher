@@ -51,11 +51,11 @@ This will launch the web app in your browser at [http://localhost:8501](http://l
 
 ```
 lip-cipher/
-├── data/                 
+├── data/                  # Video data and alignment files
 ├── src/                  
-│   ├── model_util.py     
-│   ├── utils.py           
-│   └── streamlitapp.py   
+│   ├── model_util.py      # Handles model loading and predictions
+│   ├── utils.py           # Preprocessing utilities
+│   └── streamlitapp.py    # Main Streamlit frontend   
 ├── requirements.txt      
 ├── README.md             
 └── .gitignore             
