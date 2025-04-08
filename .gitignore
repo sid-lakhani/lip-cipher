@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Python compiled files inside any folder
+**/__pycache__/
+**/*.py[cod]
+
+# Virtual envs (if any)
+venv/
+.env/
+.envrc
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS / Windows / Linux junk
+.DS_Store
+Thumbs.db
